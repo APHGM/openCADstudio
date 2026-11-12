@@ -1,0 +1,11 @@
+[plugin]
+id = "com.geocentroid.pcclip"
+name = "Point Cloud Clip"
+version = "0.1.0"
+description = "Progressive point cloud clipping with clip history stack"
+
+[opencad]
+api_version = 18
+ribbon_order = 90
+command_prefixes = ["PC_"]
+xdata_apps = ["PCCLIP"]
